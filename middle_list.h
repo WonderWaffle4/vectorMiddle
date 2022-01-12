@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <string>
-#include<vector>
+#include <vector>
 
 using namespace std;
 
@@ -20,5 +20,7 @@ long itc_sum_even_part_lst(const vector<int> &lst);
 
 void itc_odd_even_separator_lst(const vector<int> &lst, vector<int> &lst1, vector<int> &lst2);
 void itc_pos_neg_separator_lst(const vector<int> &lst, vector<int> &lst1, vector<int> &lst2, vector<int> &lst3);
+void itc_odd_even_analysis_lst(const vector<int> &lst);
+void itc_pos_neg_analysis_lst(const vector<int> &lst);
 
 #endif // MIDDLE_LIST_H_INCLUDED
