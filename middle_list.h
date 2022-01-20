@@ -7,7 +7,7 @@
 
 using namespace std;
 
-vector <char> itc_strtlist(string str);
+vector<char> itc_strtlist(string str);
 
 long long itc_len(string str);
 
